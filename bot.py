@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from helpers import progress_bar
 
-API_ID = int(os.environ.get("API_ID", 12345))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
+API_ID = int(os.environ.get("API_ID", 26682163))
+API_HASH = os.environ.get("API_HASH", "a8f99ba7a23a64b6512aed95fb8a5885")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
 
 bot = Client("url_uploader_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
